@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="ShopCartt Application Test Automation Test Suite">
+
+<listeners>
+	<listener class-name="com.shopcart.qa.extentreport.ShopcartExtentReporter"></listener>
+</listeners>
+
+  <test thread-count="5" name="ShopCartt App Test Cases">
+    <classes>
+      <class name="com.shopcart.qa.testpages.AdminLoginPageTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
