@@ -5,8 +5,10 @@
     <classes>
       <class name="com.shopcart.qa.testpages.DashboardTest">
         <methods>
-          <include name="verifyDashboardTitle"/>
+          <include name="verifyDashboardTitleTest"/>
           <include name="setEnv"/>
+          <include name="tearDown"/>
+          <include name="verifyDemoModeToggleBtnTest"/>
         </methods>
       </class> <!-- com.shopcart.qa.testpages.DashboardTest -->
     </classes>

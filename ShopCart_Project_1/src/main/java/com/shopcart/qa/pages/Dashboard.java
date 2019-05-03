@@ -289,10 +289,10 @@ public class Dashboard extends TestBase {
 	
 	//--------------------------------------------------------------------------------------------------------------------------
 	
-	public void verifySearchBoxPlaceholder()
+	public String verifySearchBoxPlaceholder()
 	{
 		String placeholder = SearchBox.getAttribute("placeholder");
-		log.info("Search Box : " + placeholder);		
+		return placeholder;		
 	}
 	
 	//--------------------------------------------------------------------------------------------------------------------------
@@ -370,9 +370,9 @@ public class Dashboard extends TestBase {
 	
 	//--------------------------------------------------------------------------------------------------------------------------
 	
-	public void verifyPriceRulesIcon()
+	public boolean verifyPriceRulesIcon()
 	{
-		PriceRulesIcon.isDisplayed();
+		return PriceRulesIcon.isDisplayed();
 	}
 	
 	//--------------------------------------------------------------------------------------------------------------------------
@@ -422,7 +422,7 @@ public class Dashboard extends TestBase {
 	
 	//--------------------------------------------------------------------------------------------------------------------------
 	
-	public LocalizationPage verifyLocalizationLink()
+	public LocalizationPage ClickOnLocalizationLink()
 	{
 		LocalizationLink.click();
 		return new LocalizationPage();
@@ -497,7 +497,12 @@ public class Dashboard extends TestBase {
 	
 	//--------------------------------------------------------------------------------------------------------------------------
 	
+	public void ClickOnAlignIconLink()
+	{
+		AlignIconLink.click();
+	}
 	
+	//-----------------------------------------------------------------------------------------------------------------------------------------------
 	
 	
 }	
