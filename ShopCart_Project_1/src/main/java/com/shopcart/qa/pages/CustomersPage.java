@@ -1,5 +1,7 @@
 package com.shopcart.qa.pages;
 
-public class CustomersPage {
+import com.shopcart.qa.base.TestBase;
+
+public class CustomersPage extends TestBase {
 
 }

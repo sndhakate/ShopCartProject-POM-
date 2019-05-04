@@ -1,6 +1,7 @@
 package com.shopcart.qa.pages;
 
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
@@ -133,6 +134,12 @@ public class Dashboard extends TestBase {
 	
 	@FindBy(xpath="//i[@class='icon-align-justify icon-rotate-90']")
 	WebElement AlignIconLink;
+	
+	@FindBy(xpath="//a[contains(text(),'Dashboard')]")
+	WebElement DashboardSmallText;
+	
+	@FindBy(xpath="//h2[@class='page-title']")
+	WebElement DashboardPageTitle;
 	
 	
 	public Dashboard() 
@@ -501,6 +508,63 @@ public class Dashboard extends TestBase {
 	{
 		AlignIconLink.click();
 	}
+	
+	//-----------------------------------------------------------------------------------------------------------------------------------------------
+	
+	public String verifyDashboardSmallText()
+	{
+		return DashboardSmallText.getText();
+	}
+	
+	//-----------------------------------------------------------------------------------------------------------------------------------------------
+	
+	public void ClickOnDashboardSmallText()
+	{
+		DashboardSmallText.click();
+	}	
+	
+	//-----------------------------------------------------------------------------------------------------------------------------------------------
+	
+	public String verifyDashboardPageTitle()
+	{
+		return DashboardPageTitle.getText();
+	}
+	
+	//-----------------------------------------------------------------------------------------------------------------------------------------------
+	
+	public void ClickOnAvatarSymbol()
+	{
+		AvatarSymbol.click();
+	}	
+	
+	//-----------------------------------------------------------------------------------------------------------------------------------------------
+	
+	public void Check_ToggleBtn_Color() 
+	{
+		log.info("Color before mouse move to the element : " + DemoModeToggleBtn.getCssValue("color"));
+		Actions action = new Actions(driver);
+		action.moveToElement(DemoModeToggleBtn).build().perform();
+		log.info("Color after mouse move to the element : " + DemoModeToggleBtn.getCssValue("color"));		
+	}
+
+	//-----------------------------------------------------------------------------------------------------------------------------------------------
+	
+	public void Check_HelpIcon_Color() 
+	{
+		log.info("Color before mouse move to the element : " + HelpIcon.getCssValue("color"));
+		Actions action = new Actions(driver);
+		action.moveToElement(HelpIcon).build().perform();
+		log.info("Color after mouse move to the element : " + HelpIcon.getCssValue("color"));		
+		
+	}
+	
+	//-----------------------------------------------------------------------------------------------------------------------------------------------
+	
+	public MyShopPage ClickOnMyShopLink()
+	{
+		MyShopLink.click();
+		return new MyShopPage();
+	}	
 	
 	//-----------------------------------------------------------------------------------------------------------------------------------------------
 	

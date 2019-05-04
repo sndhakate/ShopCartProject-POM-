@@ -210,6 +210,14 @@ public class DashboardTest extends TestBase {
 	//-----------------------------------------------------------------------------------------------------------------------------------------------
 	
 	@Test(priority=19)
+	public void ClickOnAvatarSymbolTest()
+	{
+		dashboard.ClickOnAvatarSymbol();		
+	}		
+	
+	//-----------------------------------------------------------------------------------------------------------------------------------------------
+	
+	@Test(priority=20)
 	public void verifySearchLinkIconTest()
 	{
 		boolean icon = dashboard.verifySearchLinkIcon();
@@ -219,7 +227,7 @@ public class DashboardTest extends TestBase {
 	
 	//-----------------------------------------------------------------------------------------------------------------------------------------------
 	
-	@Test(priority=20)
+	@Test(priority=21)
 	public void verifySearchDropDownTest()
 	{
 		boolean dropdown = dashboard.verifySearchDropDown();
@@ -229,7 +237,7 @@ public class DashboardTest extends TestBase {
 	
 	//-----------------------------------------------------------------------------------------------------------------------------------------------
 	
-	@Test(priority=21)
+	@Test(priority=22)
 	public void verifySearchBoxTest()
 	{
 		boolean box = dashboard.verifySearchBox();
@@ -239,7 +247,7 @@ public class DashboardTest extends TestBase {
 	
 	//-----------------------------------------------------------------------------------------------------------------------------------------------
 	
-	@Test(priority=22)
+	@Test(priority=23)
 	public void verifySearchBoxPlaceholderTest()
 	{
 		String actual = dashboard.verifySearchBoxPlaceholder();
@@ -251,7 +259,7 @@ public class DashboardTest extends TestBase {
 	
 	//-----------------------------------------------------------------------------------------------------------------------------------------------
 	
-	@Test(priority=23)
+	@Test(priority=24)
 	public void verifyDemoModeToggleBtnTest()
 	{
 		String actual = dashboard.verifyDemoModeToggleBtn();
@@ -263,7 +271,7 @@ public class DashboardTest extends TestBase {
 	
 	//-----------------------------------------------------------------------------------------------------------------------------------------------
 	
-	@Test(priority=24)
+	@Test(priority=25)
 	public void verifyHelpTextTest()
 	{
 		String actual = dashboard.verifyHelpText();
@@ -275,7 +283,7 @@ public class DashboardTest extends TestBase {
 	
 	//-----------------------------------------------------------------------------------------------------------------------------------------------
 	
-	@Test(priority=25)
+	@Test(priority=26)
 	public void verifyToggleBtnTest()
 	{
 		boolean btn = dashboard.verifyToggleBtn();
@@ -285,7 +293,7 @@ public class DashboardTest extends TestBase {
 	
 	//-----------------------------------------------------------------------------------------------------------------------------------------------
 	
-	@Test(priority=26)
+	@Test(priority=27)
 	public void verifyHelpIconTest()
 	{
 		boolean icon = dashboard.verifyHelpIcon();
@@ -295,7 +303,7 @@ public class DashboardTest extends TestBase {
 	
 	//-----------------------------------------------------------------------------------------------------------------------------------------------
 	
-	@Test(priority=27)
+	@Test(priority=28)
 	public void verifyCatalogIconTest()
 	{
 		boolean icon = dashboard.verifyCatalogIcon();
@@ -305,7 +313,7 @@ public class DashboardTest extends TestBase {
 	
 	//-----------------------------------------------------------------------------------------------------------------------------------------------
 	
-	@Test(priority=28)
+	@Test(priority=29)
 	public void ClickOnCatalogLinkTest()
 	{
 		dashboard.ClickOnCatalogLink();		
@@ -313,7 +321,7 @@ public class DashboardTest extends TestBase {
 	
 	//-----------------------------------------------------------------------------------------------------------------------------------------------
 	
-	@Test(priority=29)
+	@Test(priority=30)
 	public void verifyOrdersIconTest()
 	{
 		boolean icon = dashboard.verifyOrdersIcon();
@@ -323,7 +331,7 @@ public class DashboardTest extends TestBase {
 	
 	//-----------------------------------------------------------------------------------------------------------------------------------------------
 	
-	@Test(priority=30)
+	@Test(priority=31)
 	public void ClickOnOrdersLinkTest()
 	{
 		dashboard.ClickOnOrdersLink();		
@@ -331,7 +339,7 @@ public class DashboardTest extends TestBase {
 	
 	//-----------------------------------------------------------------------------------------------------------------------------------------------
 	
-	@Test(priority=31)
+	@Test(priority=32)
 	public void verifyCustomersIconTest()
 	{
 		boolean icon = dashboard.verifyCustomersIcon();
@@ -341,7 +349,7 @@ public class DashboardTest extends TestBase {
 		
 	//-----------------------------------------------------------------------------------------------------------------------------------------------
 	
-	@Test(priority=32)
+	@Test(priority=33)
 	public void ClickOnCustomersLinkTest()
 	{
 		dashboard.ClickOnCustomersLink();		
@@ -349,7 +357,7 @@ public class DashboardTest extends TestBase {
 	
 	//-----------------------------------------------------------------------------------------------------------------------------------------------
 	
-	@Test(priority=33)
+	@Test(priority=34)
 	public void verifyPriceRulesIconTest()
 	{
 		boolean icon = dashboard.verifyPriceRulesIcon();
@@ -359,7 +367,7 @@ public class DashboardTest extends TestBase {
 		
 	//-----------------------------------------------------------------------------------------------------------------------------------------------
 	
-	@Test(priority=34)
+	@Test(priority=35)
 	public void ClickOnPriceRulesLinkTest()
 	{
 		dashboard.ClickOnPriceRulesLink();		
@@ -367,7 +375,7 @@ public class DashboardTest extends TestBase {
 		
 	//-----------------------------------------------------------------------------------------------------------------------------------------------
 	
-	@Test(priority=35)
+	@Test(priority=36)
 	public void verifyModulesAndServicesIconTest()
 	{
 		boolean icon = dashboard.verifyModulesAndServicesIcon();
@@ -377,7 +385,7 @@ public class DashboardTest extends TestBase {
 		
 	//-----------------------------------------------------------------------------------------------------------------------------------------------
 	
-	@Test(priority=36)
+	@Test(priority=37)
 	public void ClickOnModulesAndServicesLinkTest()
 	{
 		dashboard.ClickOnModulesAndServicesLink();		
@@ -385,7 +393,7 @@ public class DashboardTest extends TestBase {
 	
 	//-----------------------------------------------------------------------------------------------------------------------------------------------
 	
-	@Test(priority=37)
+	@Test(priority=38)
 	public void verifyShippingIconTest()
 	{
 		boolean icon = dashboard.verifyShippingIcon();
@@ -395,7 +403,7 @@ public class DashboardTest extends TestBase {
 	
 	//-----------------------------------------------------------------------------------------------------------------------------------------------
 	
-	@Test(priority=38)
+	@Test(priority=39)
 	public void ClickOnShippingLinkTest()
 	{
 		dashboard.ClickOnShippingLink();		
@@ -403,7 +411,7 @@ public class DashboardTest extends TestBase {
 	
 	//-----------------------------------------------------------------------------------------------------------------------------------------------
 	
-	@Test(priority=39)
+	@Test(priority=40)
 	public void verifyLocalizationIconTest()
 	{
 		boolean icon = dashboard.verifyLocalizationIcon();
@@ -413,7 +421,7 @@ public class DashboardTest extends TestBase {
 	
 	//-----------------------------------------------------------------------------------------------------------------------------------------------
 	
-	@Test(priority=40)
+	@Test(priority=41)
 	public void ClickOnLocalizationLinkTest()
 	{
 		dashboard.ClickOnLocalizationLink();		
@@ -421,7 +429,7 @@ public class DashboardTest extends TestBase {
 	
 	//-----------------------------------------------------------------------------------------------------------------------------------------------
 	
-	@Test(priority=41)
+	@Test(priority=42)
 	public void verifyPreferenceIconTest()
 	{
 		boolean icon = dashboard.verifyPreferenceIcon();
@@ -431,7 +439,7 @@ public class DashboardTest extends TestBase {
 	
 	//-----------------------------------------------------------------------------------------------------------------------------------------------
 	
-	@Test(priority=42)
+	@Test(priority=43)
 	public void ClickOnPreferenceLinkTest()
 	{
 		dashboard.ClickOnPreferenceLink();		
@@ -439,7 +447,7 @@ public class DashboardTest extends TestBase {
 	
 	//-----------------------------------------------------------------------------------------------------------------------------------------------
 	
-	@Test(priority=43)
+	@Test(priority=44)
 	public void verifyAdvParametersIconTest()
 	{
 		boolean icon = dashboard.verifyAdvParametersIcon();
@@ -449,7 +457,7 @@ public class DashboardTest extends TestBase {
 		
 	//-----------------------------------------------------------------------------------------------------------------------------------------------
 	
-	@Test(priority=44)
+	@Test(priority=45)
 	public void ClickOnAdvParametersIconTest()
 	{
 		dashboard.ClickOnAdvParametersIcon();		
@@ -457,7 +465,7 @@ public class DashboardTest extends TestBase {
 	
 	//-----------------------------------------------------------------------------------------------------------------------------------------------
 	
-	@Test(priority=45)
+	@Test(priority=46)
 	public void verifyAdministrationIconTest()
 	{
 		boolean icon = dashboard.verifyAdministrationIcon();
@@ -467,7 +475,7 @@ public class DashboardTest extends TestBase {
 	
 	//-----------------------------------------------------------------------------------------------------------------------------------------------
 	
-	@Test(priority=46)
+	@Test(priority=47)
 	public void ClickOnAdministrationlinkTest()
 	{
 		dashboard.ClickOnAdministrationlink();		
@@ -475,7 +483,7 @@ public class DashboardTest extends TestBase {
 	
 	//-----------------------------------------------------------------------------------------------------------------------------------------------
 	
-	@Test(priority=47)
+	@Test(priority=48)
 	public void verifyStatsIconTest()
 	{
 		boolean icon = dashboard.verifyStatsIcon();
@@ -485,7 +493,7 @@ public class DashboardTest extends TestBase {
 	
 	//-----------------------------------------------------------------------------------------------------------------------------------------------
 	
-	@Test(priority=48)
+	@Test(priority=49)
 	public void ClickOnStatsLinkTest()
 	{
 		dashboard.ClickOnStatsLink();		
@@ -493,7 +501,7 @@ public class DashboardTest extends TestBase {
 	
 	//-----------------------------------------------------------------------------------------------------------------------------------------------
 	
-	@Test(priority=49)
+	@Test(priority=50)
 	public void verifyAlignIconLinkTest()
 	{
 		boolean icon = dashboard.verifyAlignIconLink();
@@ -503,7 +511,7 @@ public class DashboardTest extends TestBase {
 	
 	//-----------------------------------------------------------------------------------------------------------------------------------------------
 	
-	@Test(priority=50)
+	@Test(priority=51)
 	public void ClickOnAlignIconLinkTest()
 	{
 		dashboard.ClickOnAlignIconLink();		
@@ -511,18 +519,71 @@ public class DashboardTest extends TestBase {
 	
 	//-----------------------------------------------------------------------------------------------------------------------------------------------
 	
-	
-	
-	
+	@Test(priority=52)
+	public void verifyDashboardSmallTextTest()
+	{
+		String actual = dashboard.verifyDashboardSmallText();
+		String expected = "Dashboard";
+		Assert.assertEquals(actual, expected);
+		log.info("Placeholder Actual : " + actual);
+		log.info("Placeholder Expected : " + expected);
+	}		
 	
 	//-----------------------------------------------------------------------------------------------------------------------------------------------
+	
+	@Test(priority=53)
+	public void ClickOnDashboardSmallTextTest()
+	{
+		dashboard.ClickOnDashboardSmallText();		
+	}	
+	
+	//-----------------------------------------------------------------------------------------------------------------------------------------------
+	
+	@Test(priority=54)
+	public void verifyDashboardPageTitleTest()
+	{
+		String actual = dashboard.verifyDashboardPageTitle();
+		String expected = "Dashboard";
+		Assert.assertEquals(actual, expected);
+		log.info("Placeholder Actual : " + actual);
+		log.info("Placeholder Expected : " + expected);
+	}		
+		
+	//-----------------------------------------------------------------------------------------------------------------------------------------------
+	
+	@Test(priority=55)
+	public void Check_ToggleBtn_ColorTest()
+	{
+		dashboard.Check_ToggleBtn_Color();
+	}
+		
+	//-----------------------------------------------------------------------------------------------------------------------------------------------
+	
+	@Test(priority=56)
+	public void Check_HelpIcon_ColorTest()
+	{
+		dashboard.Check_HelpIcon_Color();
+	}
+	
+	//-----------------------------------------------------------------------------------------------------------------------------------------------
+	
+	@Test(priority=57)
+	public void  ClickOnMyShopLinkTest()
+	{
+		dashboard. ClickOnMyShopLink();		
+	}	
+	
+	//-----------------------------------------------------------------------------------------------------------------------------------------------
+	
+	
+	
+	
+	
 	@AfterMethod
 	public void tearDown()
 	{
 		driver.quit();
-	}
-	
-	
+	}	
 	
 }
 
