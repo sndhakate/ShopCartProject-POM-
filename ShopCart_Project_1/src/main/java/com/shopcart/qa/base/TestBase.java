@@ -42,10 +42,10 @@ public class TestBase {
 		
 		if (browserName.equals("chrome")) {
 			log.info("**************Setting the System Properties****************");
-			System.getProperty("webdriver.chrome.driver", "C:\\Users\\Lenovo\\gitShopCartProject_POM\\ShopCart_Project_1\\src\\main\\java\\com\\shop\\qa\\exeDriverFile\\chromedriver.exe");
+			System.getProperty("webdriver.chrome.driver", "C:\\Users\\Lenovo\\gitShopCartProject_POM\\ShopCart_Project_1\\src\\main\\java\\com\\shopcart\\qa\\exeDriverFile\\chromedriver.exe");
 			driver = new ChromeDriver();
 		} else if (browserName.equals("FireFox")){
-			System.getProperty("webdriver.gecko.driver", "C:\\Users\\Lenovo\\gitShopCartProject_POM\\ShopCart_Project_1\\src\\main\\java\\com\\shop\\qa\\exeDriverFile\\geckodriver.exe");
+			System.getProperty("webdriver.gecko.driver", "C:\\Users\\Lenovo\\gitShopCartProject_POM\\ShopCart_Project_1\\src\\main\\java\\com\\shopcart\\qa\\exeDriverFile\\geckodriver.exe");
 			driver = new FirefoxDriver();
 		}
 		
