@@ -21,7 +21,7 @@ public class TestUtil extends TestBase {
 	public static long PAGE_LOAD_TIMEOUT = 20;
 	public static long IMPLICIT_WAIT = 20;
 	
-	public static String TESTDATA_SHEET_PATH = "C:\\Maven Projects\\PageObjectModelJbkOffine\\src\\main\\java\\com\\jbkoffline\\qa\\data\\ExcelSheetData.xlsx";
+	public static String TESTDATA_SHEET_PATH = "C:\\Users\\Lenovo\\gitShopCartProject_POM\\ShopCart_Project_1\\src\\main\\java\\com\\shopcart\\qa\\testdata\\ShopCart_TestData.xlsx";
 
 	static Workbook book;
 	static Sheet sheet;
@@ -58,11 +58,7 @@ public class TestUtil extends TestBase {
 		return data;
 	}
 
-	public static void takeScreenshotAtEndOfTest() throws IOException {
-		File scrFile = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
-		String currentDir = System.getProperty("user.dir");
-		FileUtils.copyFile(scrFile, new File(currentDir + "/screenshots/" + System.currentTimeMillis() + ".png"));
-	}
+	
 	
 //	public static void runTimeInfo(String messageType, String message) throws InterruptedException {
 //		js = (JavascriptExecutor) driver;

@@ -1,0 +1,121 @@
+2019-05-04 19:18:59,756  INFO [main] class:44 - **************Setting the System Properties****************
+2019-05-04 19:19:08,554  INFO [main] class:57 - **************Launching the WebDriver*****************
+2019-05-04 19:19:08,570  INFO [main] class:58 - **************Maximizing the Web Window************
+2019-05-04 19:19:47,455  INFO [main] class:554 - Color before mouse move to the element : rgba(46, 172, 206, 1)
+2019-05-04 19:19:49,850  INFO [main] class:557 - Color after mouse move to the element : rgba(64, 201, 237, 1)
+2019-05-04 19:47:59,371  INFO [main] TestBase:47 - **************Setting the System Properties****************
+2019-05-04 19:48:05,913  INFO [main] TestBase:61 - **************Launching the WebDriver*****************
+2019-05-04 19:48:05,913  INFO [main] TestBase:62 - **************Maximizing the Web Window************
+2019-05-05 20:42:00,130  INFO [main] TestBase:47 - **************Setting the System Properties****************
+2019-05-05 20:42:34,740  INFO [main] TestBase:61 - **************Launching the WebDriver*****************
+2019-05-05 20:42:34,740  INFO [main] TestBase:62 - **************Maximizing the Web Window************
+2019-05-05 20:43:38,792  INFO [main] TestBase:127 - --------------------------------------------Current Title-----------------------------------------------
+2019-05-05 20:50:30,367  INFO [main] TestBase:47 - **************Setting the System Properties****************
+2019-05-05 20:50:38,624  INFO [main] TestBase:61 - **************Launching the WebDriver*****************
+2019-05-05 20:50:38,624  INFO [main] TestBase:62 - **************Maximizing the Web Window************
+2019-05-05 20:51:03,800  INFO [main] TestBase:135 - --------------------------------------Verifying Customers Tag Text------------------------------------
+2019-05-05 21:00:54,869  INFO [main] TestBase:47 - **************Setting the System Properties****************
+2019-05-05 21:00:59,247  INFO [main] TestBase:61 - **************Launching the WebDriver*****************
+2019-05-05 21:00:59,253  INFO [main] TestBase:62 - **************Maximizing the Web Window************
+2019-05-05 21:01:22,347  INFO [main] TestBase:177 - --------------------------------------Verifying Add New CustomerText------------------------------------
+2019-05-05 21:07:12,388  INFO [main] TestBase:47 - **************Setting the System Properties****************
+2019-05-05 21:07:17,934  INFO [main] TestBase:61 - **************Launching the WebDriver*****************
+2019-05-05 21:07:17,934  INFO [main] TestBase:62 - **************Maximizing the Web Window************
+2019-05-05 21:07:30,432  INFO [main] TestBase:211 - --------------------------------------Verifying Module List Text---------------------------------------------
+2019-05-05 21:11:56,039  INFO [main] TestBase:47 - **************Setting the System Properties****************
+2019-05-05 21:12:02,492  INFO [main] TestBase:61 - **************Launching the WebDriver*****************
+2019-05-05 21:12:02,493  INFO [main] TestBase:62 - **************Maximizing the Web Window************
+2019-05-05 21:12:17,976  INFO [main] TestBase:245 - --------------------------------------Verifying Help Text---------------------------------------------
+2019-05-05 21:12:18,149  INFO [main] TestBase:174 - Actual : Help
+2019-05-05 21:12:18,149  INFO [main] TestBase:175 - Expected : Help
+2019-05-05 21:14:53,333  INFO [main] TestBase:47 - **************Setting the System Properties****************
+2019-05-05 21:14:59,663  INFO [main] TestBase:61 - **************Launching the WebDriver*****************
+2019-05-05 21:14:59,664  INFO [main] TestBase:62 - **************Maximizing the Web Window************
+2019-05-05 21:15:08,673  INFO [main] TestBase:269 - --------------------------------------Verifying Customer Text---------------------------------------------
+2019-05-05 21:34:50,702  INFO [main] TestBase:47 - **************Setting the System Properties****************
+2019-05-05 21:34:55,794  INFO [main] TestBase:61 - **************Launching the WebDriver*****************
+2019-05-05 21:34:55,794  INFO [main] TestBase:62 - **************Maximizing the Web Window************
+2019-05-05 21:35:12,631  INFO [main] TestBase:451 - --------------------------------------Verifying Search Button Placeholder------------------------------------
+2019-05-05 21:43:04,993  INFO [main] TestBase:47 - **************Setting the System Properties****************
+2019-05-05 21:43:12,328  INFO [main] TestBase:61 - **************Launching the WebDriver*****************
+2019-05-05 21:43:12,329  INFO [main] TestBase:62 - **************Maximizing the Web Window************
+2019-05-05 21:43:19,813  INFO [main] TestBase:477 - --------------------------------------Verifying Bulk Action Btn Text  ---------------------------------------------
+2019-05-05 21:43:19,900  INFO [main] TestBase:434 - Actual : Bulk actions
+2019-05-05 21:43:19,901  INFO [main] TestBase:435 - Expected : Bulk actions
+2019-05-05 21:45:45,175  INFO [main] TestBase:47 - **************Setting the System Properties****************
+2019-05-05 21:45:50,696  INFO [main] TestBase:61 - **************Launching the WebDriver*****************
+2019-05-05 21:45:50,696  INFO [main] TestBase:62 - **************Maximizing the Web Window************
+2019-05-05 21:45:59,142  INFO [main] TestBase:511 - --------------------------------------Verifying Set Req.Btn Text  ---------------------------------------------
+2019-05-05 21:47:13,952  INFO [main] TestBase:47 - **************Setting the System Properties****************
+2019-05-05 21:47:18,134  INFO [main] TestBase:61 - **************Launching the WebDriver*****************
+2019-05-05 21:47:18,134  INFO [main] TestBase:62 - **************Maximizing the Web Window************
+2019-05-05 21:47:25,785  INFO [main] TestBase:527 - --------------------------------------Verify Req.Field Alert Text-----------------------------------
+2019-05-05 21:48:49,579  INFO [main] TestBase:47 - **************Setting the System Properties****************
+2019-05-05 21:48:54,041  INFO [main] TestBase:61 - **************Launching the WebDriver*****************
+2019-05-05 21:48:54,041  INFO [main] TestBase:62 - **************Maximizing the Web Window************
+2019-05-05 21:49:02,602  INFO [main] TestBase:527 - --------------------------------------Verify Req.Field Alert Text-----------------------------------
+2019-05-05 23:16:18,294  INFO [main] TestBase:47 - **************Setting the System Properties****************
+2019-05-05 23:16:27,472  INFO [main] TestBase:61 - **************Launching the WebDriver*****************
+2019-05-05 23:16:27,472  INFO [main] TestBase:62 - **************Maximizing the Web Window************
+2019-05-05 23:16:43,957  INFO [main] TestBase:527 - --------------------------------------Verify Req.Field Alert-------------------------------------
+2019-05-05 23:20:24,880  INFO [main] TestBase:47 - **************Setting the System Properties****************
+2019-05-05 23:20:30,709  INFO [main] TestBase:61 - **************Launching the WebDriver*****************
+2019-05-05 23:20:30,709  INFO [main] TestBase:62 - **************Maximizing the Web Window************
+2019-05-05 23:20:44,784  INFO [main] TestBase:527 - --------------------------------------Verify Req.Field Alert-------------------------------------
+2019-05-05 23:22:25,036  INFO [main] TestBase:47 - **************Setting the System Properties****************
+2019-05-05 23:22:31,605  INFO [main] TestBase:61 - **************Launching the WebDriver*****************
+2019-05-05 23:22:31,613  INFO [main] TestBase:62 - **************Maximizing the Web Window************
+2019-05-05 23:22:41,176  INFO [main] TestBase:527 - --------------------------------------Verify Req.Field Alert-------------------------------------
+2019-05-05 23:22:41,859  INFO [main] TestBase:491 - Is checkBox Displayed : true
+2019-05-05 23:23:21,921  INFO [main] TestBase:47 - **************Setting the System Properties****************
+2019-05-05 23:23:27,310  INFO [main] TestBase:61 - **************Launching the WebDriver*****************
+2019-05-05 23:23:27,310  INFO [main] TestBase:62 - **************Maximizing the Web Window************
+2019-05-05 23:23:36,243  INFO [main] TestBase:519 - --------------------------------------Click On Set Req. Btn------------------------------------
+2019-05-05 23:31:38,903  INFO [main] TestBase:47 - **************Setting the System Properties****************
+2019-05-05 23:31:43,457  INFO [main] TestBase:61 - **************Launching the WebDriver*****************
+2019-05-05 23:31:43,457  INFO [main] TestBase:62 - **************Maximizing the Web Window************
+2019-05-05 23:31:53,513  INFO [main] TestBase:548 - --------------------------------------Click On Save Icon -----------------------------------
+2019-05-05 23:32:11,668  INFO [main] TestBase:47 - **************Setting the System Properties****************
+2019-05-05 23:32:17,164  INFO [main] TestBase:61 - **************Launching the WebDriver*****************
+2019-05-05 23:32:17,168  INFO [main] TestBase:62 - **************Maximizing the Web Window************
+2019-05-05 23:32:26,126  INFO [main] TestBase:557 - --------------------------------------Click On Addresses -----------------------------------
+2019-05-05 23:32:44,198  INFO [main] TestBase:47 - **************Setting the System Properties****************
+2019-05-05 23:32:48,068  INFO [main] TestBase:61 - **************Launching the WebDriver*****************
+2019-05-05 23:32:48,072  INFO [main] TestBase:62 - **************Maximizing the Web Window************
+2019-05-05 23:32:57,724  INFO [main] TestBase:567 - --------------------------------------Click On Groups -----------------------------------
+2019-05-06 00:16:54,050  INFO [main] TestBase:47 - **************Setting the System Properties****************
+2019-05-06 00:17:07,903  INFO [main] TestBase:61 - **************Launching the WebDriver*****************
+2019-05-06 00:17:07,907  INFO [main] TestBase:62 - **************Maximizing the Web Window************
+2019-05-06 00:41:15,257  INFO [main] TestBase:49 - **************Setting the System Properties****************
+2019-05-06 00:41:22,504  INFO [main] TestBase:63 - **************Launching the WebDriver*****************
+2019-05-06 00:41:22,504  INFO [main] TestBase:64 - **************Maximizing the Web Window************
+2019-05-06 00:43:29,652  INFO [main] TestBase:49 - **************Setting the System Properties****************
+2019-05-06 00:43:38,349  INFO [main] TestBase:63 - **************Launching the WebDriver*****************
+2019-05-06 00:43:38,353  INFO [main] TestBase:64 - **************Maximizing the Web Window************
+2019-05-06 00:47:22,289  INFO [main] TestBase:49 - **************Setting the System Properties****************
+2019-05-06 00:47:44,809  INFO [main] TestBase:63 - **************Launching the WebDriver*****************
+2019-05-06 00:47:44,809  INFO [main] TestBase:64 - **************Maximizing the Web Window************
+2019-05-06 00:52:55,300  INFO [main] TestBase:49 - **************Setting the System Properties****************
+2019-05-06 00:53:04,097  INFO [main] TestBase:63 - **************Launching the WebDriver*****************
+2019-05-06 00:53:04,101  INFO [main] TestBase:64 - **************Maximizing the Web Window************
+2019-05-06 00:56:25,348  INFO [main] TestBase:49 - **************Setting the System Properties****************
+2019-05-06 00:56:32,128  INFO [main] TestBase:63 - **************Launching the WebDriver*****************
+2019-05-06 00:56:32,128  INFO [main] TestBase:64 - **************Maximizing the Web Window************
+2019-05-06 00:58:03,318  INFO [main] TestBase:49 - **************Setting the System Properties****************
+2019-05-06 00:58:08,827  INFO [main] TestBase:63 - **************Launching the WebDriver*****************
+2019-05-06 00:58:08,827  INFO [main] TestBase:64 - **************Maximizing the Web Window************
+2019-05-06 01:03:12,094  INFO [main] TestBase:49 - **************Setting the System Properties****************
+2019-05-06 01:03:17,656  INFO [main] TestBase:63 - **************Launching the WebDriver*****************
+2019-05-06 01:03:17,656  INFO [main] TestBase:64 - **************Maximizing the Web Window************
+2019-05-06 11:44:11,006  INFO [main] TestBase:49 - **************Setting the System Properties****************
+2019-05-06 11:44:41,228  INFO [main] TestBase:63 - **************Launching the WebDriver*****************
+2019-05-06 11:44:41,228  INFO [main] TestBase:64 - **************Maximizing the Web Window************
+2019-05-06 11:48:51,088  INFO [main] TestBase:49 - **************Setting the System Properties****************
+2019-05-06 11:49:07,980  INFO [main] TestBase:63 - **************Launching the WebDriver*****************
+2019-05-06 11:49:07,980  INFO [main] TestBase:64 - **************Maximizing the Web Window************
+2019-05-06 12:02:45,905  INFO [main] TestBase:49 - **************Setting the System Properties****************
+2019-05-06 12:03:21,923  INFO [main] TestBase:63 - **************Launching the WebDriver*****************
+2019-05-06 12:03:21,923  INFO [main] TestBase:64 - **************Maximizing the Web Window************
+2019-05-06 12:10:46,030  INFO [main] TestBase:49 - **************Setting the System Properties****************
+2019-05-06 12:10:53,664  INFO [main] TestBase:63 - **************Launching the WebDriver*****************
+2019-05-06 12:10:53,664  INFO [main] TestBase:64 - **************Maximizing the Web Window************
