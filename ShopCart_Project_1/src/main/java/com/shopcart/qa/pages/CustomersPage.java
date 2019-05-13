@@ -6,7 +6,6 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
 import com.shopcart.qa.base.TestBase;
-import com.shopcart.qa.util.ActionsClass;
 import com.shopcart.qa.util.DropDownHelper;
 
 public class CustomersPage extends TestBase {
@@ -142,6 +141,9 @@ public class CustomersPage extends TestBase {
 	
 	@FindBy(xpath="//i[@class='process-icon-save']")
 	WebElement Save;
+	
+	@FindBy(xpath="//span[contains(text(),'Customers')]")
+	WebElement CustomersLink;
 	
 	
 		
@@ -585,7 +587,8 @@ public class CustomersPage extends TestBase {
 	{
 		log.info("--------------------------------------Click On Addresses -----------------------------------");
 		Actions action = new Actions (driver);
-		action.moveToElement(AddressesPage).build().perform();
+		action.moveToElement(CustomersLink).build().perform();
+		AddressesPage.click();
 		return new Customers_AddressesPage();
 	}
 	
@@ -595,7 +598,8 @@ public class CustomersPage extends TestBase {
 	{
 		log.info("--------------------------------------Click On Groups -----------------------------------");
 		Actions action = new Actions (driver);
-		action.moveToElement(GroupsPage).build().perform();
+		action.moveToElement(CustomersLink).build().perform();
+		GroupsPage.click();
 		return new Customers_GroupsPage();
 	}
 	
@@ -605,7 +609,8 @@ public class CustomersPage extends TestBase {
 	{
 		log.info("--------------------------------------Click On ShoppingCarts -----------------------------------");
 		Actions action = new Actions (driver);
-		action.moveToElement(ShoppingCartsPage).build().perform();
+		action.moveToElement(CustomersLink).build().perform();
+		ShoppingCartsPage.click();
 		return new Customers_ShoppingCartsPage();
 	}
 	
@@ -615,7 +620,8 @@ public class CustomersPage extends TestBase {
 	{
 		log.info("--------------------------------------Click On CustomerServices -----------------------------------");
 		Actions action = new Actions (driver);
-		action.moveToElement(CustomerServicePage).build().perform();
+		action.moveToElement(CustomersLink).build().perform();
+		CustomerServicePage.click();
 		return new Customers_CustomerServicePage();
 	}
 	
@@ -625,7 +631,8 @@ public class CustomersPage extends TestBase {
 	{
 		log.info("--------------------------------------Click On Contacts -----------------------------------");
 		Actions action = new Actions (driver);
-		action.moveToElement(ContactsPage).build().perform();
+		action.moveToElement(CustomersLink).build().perform();
+		ContactsPage.click();
 		return new Customers_ContactsPage();
 	}
 	
@@ -635,7 +642,8 @@ public class CustomersPage extends TestBase {
 	{
 		log.info("--------------------------------------Click On Titles -----------------------------------");
 		Actions action = new Actions (driver);
-		action.moveToElement(TitlesPage).build().perform();
+		action.moveToElement(CustomersLink).build().perform();
+		TitlesPage.click();
 		return new Customers_TitlesPage();
 	}
 	

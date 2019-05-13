@@ -7,9 +7,14 @@
 </listeners>
 
   <test thread-count="5" name="ShopCartt App Test Cases">
-    <classes>
-      <class name="com.shopcart.qa.testpages.AdminLoginPageTest"/>
+    <classes>     
+   	  <class name="com.shopcart.qa.testpages.AdminLoginPageTest"/>
       <class name="com.shopcart.qa.testpages.DashboardTest"/>
+      <class name="com.shopcart.qa.testpages.CustomersPageTest"/>
+      <class name="com.shopcart.qa.testpages.Customers_GroupsPageTest"/>
+      <class name="com.shopcart.qa.testpages.Customers_ShoppingCartsPageTest"/>  
+      <class name="com.shopcart.qa.testpages.Customers_CustomerServicePageTest"/>      
+   <!-- <class name="com.shopcart.qa.testpages.MyShopPageTest"/>      -->
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
